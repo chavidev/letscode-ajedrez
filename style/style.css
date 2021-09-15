@@ -1,3 +1,40 @@
+*{
+    text-align: center;
+}
+/* si en lugar de usar la clase título uso h1, no me hace caso y no entiendo porqué*/
+/* PENDIENTE: que el color SEA una variable*/
+.titulo {
+    color: #8b4443; 
+    font-weight:900;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
 .center{
     text-align: center;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+  padding-left: 10px;
+}
+.doble {
+    font-size: 1.4em;
+}
+.dosTercios {
+    font-size: 0.7em;
+}
+
+.mitad {
+    font-size: 0.5em;
+}
+.container {
+    border: 5px solid #8b4443;
+    padding: 30px 10px;
+}
+.container :nth-child(2n){
+    background-color: black;
+    color:white;
+    padding: 10px;
 }
