@@ -1,10 +1,13 @@
 *{
     text-align: center;
 }
+:root {
+    --Primay-color: #8b4443;
+  }
 /* si en lugar de usar la clase título uso h1, no me hace caso y no entiendo porqué*/
 /* PENDIENTE: que el color SEA una variable*/
 .titulo {
-    color: #8b4443; 
+    color: var(--Primay-color); 
     font-weight:900;
     font-size: 150%;
     margin-bottom: 10px;
@@ -30,7 +33,7 @@
     font-size: 0.5em;
 }
 .container {
-    border: 5px solid #8b4443;
+    border: 5px solid var(--Primay-color);
     padding: 30px 10px;
 }
 .container :nth-child(2n){
