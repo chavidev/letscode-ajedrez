@@ -1,3 +1,4 @@
+/* ¿en que orden ha de ir el css?  ¡míratelo con clama Javi! */
 *{
     text-align: center;
 }
@@ -58,9 +59,11 @@
     font-family: 'PT Serif', serif;
 }
 .container :nth-child(2n+4){
+    background-color: whitesmoke;
     font-family:  roboto;
     font-size: 0.7em;
-    padding: 9px;
+    padding: 0px;
+    margin: 9px 0px
 }
 img { 
     position: absolute;
