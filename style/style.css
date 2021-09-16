@@ -42,19 +42,34 @@
 .seis {
     font-size: 0.4em;
 }
-.container {
+.container {    
+    position: relative;
     border: 3px solid var(--Primay-color);
     padding: 30px 10px 0 10px;
     margin: 7px;
+     /* background-image: "../img/fondo.jpeg"; no funciona */
 }
-.container :nth-child(2n){
+/* en ambos hijos hay +1 extra por haber colocado la img dentro */
+.container :nth-child(2n+1){
     background-color: black;
     color:white;
     padding: 10px;
     font-family: 'PT Serif', serif;
 }
-.container :nth-child(2n+3){
+.container :nth-child(2n+4){
     font-family:  roboto;
     font-size: 0.7em;
     padding: 9px;
 }
+img { 
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    z-index: -1;
+    
+  }
+
+  
